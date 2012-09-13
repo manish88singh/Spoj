@@ -25,7 +25,7 @@ public class PRIME_T {
         int a, i, value;
         boolean result;
 
-        while (counter-- > 0) {
+        while (counter-->0) {
             value = Integer.parseInt(reader.readLine());
             result = true;
 

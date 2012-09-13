@@ -19,10 +19,10 @@ public class PRZEDSZK {
 
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        int counter = Integer.parseInt(reader.readLine()),
+        int c = Integer.parseInt(reader.readLine()),
             a, tmpA, b, tmpB;
 
-        while (counter-- > 0) {
+        while (c-->0) {
             String[] inputs = reader.readLine().split(" ");
             a = tmpA = Integer.parseInt(inputs[0]);
             b = tmpB = Integer.parseInt(inputs[1]);

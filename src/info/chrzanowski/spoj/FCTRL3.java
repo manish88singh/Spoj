@@ -21,7 +21,7 @@ public class FCTRL3 {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         int counter = Integer.parseInt(reader.readLine());
 
-        while (counter-- > 0) {
+        while (counter-->0) {
             int input = Integer.parseInt(reader.readLine());
 
             if ( input < 10 ) {
