@@ -15,14 +15,13 @@ import java.io.InputStreamReader;
  * @see <a href="http://www.spoj.pl/problems/TEST/">http://www.spoj.pl/problems/TEST/</a>
  * @author Jakub Chrzanowski
  */
-
 public class TEST {
 
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         String input;
 
-        while (!(input = reader.readLine()).startsWith("42")) {
+        while (!(input = reader.readLine()).equals("42")) {
             System.out.println(input);
         }
     }
