@@ -10,7 +10,7 @@ import java.io.InputStreamReader;
  * Kod zadania: RNO_DOD
  * Poziom:      łatwy
  * Status:      zaakceptowano
- * Czas:        0.31
+ * Czas:
  *
  * @see <a href="http://pl.spoj.pl/problems/RNO_DOD/">http://pl.spoj.pl/problems/RNO_DOD/</a>
  * @author Jakub Chrzanowski
