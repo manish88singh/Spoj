@@ -10,7 +10,8 @@ import java.util.Random;
  *
  * Kod zadania: PRIME_T
  * Poziom:      łatwy
- * Status:      przekroczono limit czasu
+ * Status:      błędna odpowiedź
+ * Czas:        4.31
  *
  * @see <a href="http://pl.spoj.pl/problems/PRIME_T/">http://pl.spoj.pl/problems/PRIME_T/</a>
  * @author Jakub Chrzanowski
