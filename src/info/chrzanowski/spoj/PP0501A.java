@@ -12,7 +12,7 @@ import java.io.InputStreamReader;
  * Status:      błąd wykonania (NZEC)
  * Czas:
  *
- * @see <a href="http://pl.spoj.pl/problems/PRIME_T/">http://pl.spoj.pl/problems/PP0501A/</a>
+ * @see <a href="http://pl.spoj.pl/problems/PP0501A/">http://pl.spoj.pl/problems/PP0501A/</a>
  * @author Jakub Chrzanowski
  */
 public class PP0501A {
