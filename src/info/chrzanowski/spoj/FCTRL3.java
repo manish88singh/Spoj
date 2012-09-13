@@ -1,6 +1,8 @@
 package info.chrzanowski.spoj;
 
-import java.util.Scanner;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 
 /**
  * 496. Dwie cyfry silnii
@@ -8,19 +10,19 @@ import java.util.Scanner;
  * Kod zadania: FCTRL3
  * Poziom:      łatwy
  * Status:      zaakceptowano
- * Czas:        0.42
+ * Czas:        0.29
  *
  * @see <a href="http://pl.spoj.pl/problems/FCTRL3/">http://pl.spoj.pl/problems/FCTRL3/</a>
  * @author Jakub Chrzanowski
  */
 public class FCTRL3 {
 
-    public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        int counter = scan.nextInt();
+    public static void main(String[] args) throws IOException {
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        int counter = Integer.parseInt(reader.readLine());
 
         while (counter-- > 0) {
-            int input = scan.nextInt();
+            int input = Integer.parseInt(reader.readLine());
 
             switch (input) {
 
