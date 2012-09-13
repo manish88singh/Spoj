@@ -1,7 +1,9 @@
 package info.chrzanowski.spoj;
 
-import java.util.Arrays;
-import java.util.Scanner;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.Random;
 
 /**
  * 438. Liczby Pierwsze
@@ -15,28 +17,31 @@ import java.util.Scanner;
  */
 public class PRIME_T {
 
-    private static final boolean[] primes = new boolean[10000];
+    public static void main(String[] args) throws IOException {
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        long counter = Long.parseLong(reader.readLine());
+        Random random = new Random();
+        int a, i, value;
+        boolean result;
 
-    public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        long tests = scan.nextLong();
+        while (counter-- > 0) {
+            value = Integer.parseInt(reader.readLine());
+            result = true;
 
-        Arrays.fill(primes, true);
-        primes[0] = false;
-        for (int i = 2; i < primes.length; ++i) {
-            if (primes[i - 1]) {
-                for (int j = 2; i * j < primes.length; ++i) {
-                    primes[i * j - 1] = false;
+            if (value > 3) {
+                for (i = 0; i < 3; ++i) {
+                    a = 2 + random.nextInt(value - 2);
+                    if (Math.pow(a, value - 1) % value != 1) {
+                        result = false;
+                        break;
+                    }
                 }
+            } else if (value < 2) {
+                result = false;
             }
-        }
-        for (long i = 0; i < tests; ++i) {
-            int value = scan.nextInt();
-            boolean isPrime = primes[value - 1];
-            System.out.println(isPrime ? "TAK" : "NIE");
-        }
 
-        scan.close();
+            System.out.println(result ? "TAK" : "NIE");
+        }
     }
 
 }
