@@ -9,8 +9,8 @@ import java.io.InputStreamReader;
  *
  * Kod zadania: PP0501A
  * Poziom:      łatwy
- * Status:      błąd wykonania (NZEC)
- * Czas:
+ * Status:      zaakceptowano
+ * Czas:        0.63
  *
  * @see <a href="http://pl.spoj.pl/problems/PP0501A/">http://pl.spoj.pl/problems/PP0501A/</a>
  * @author Jakub Chrzanowski
