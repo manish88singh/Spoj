@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 /**
- * 606. Tablice
+ * 609. Pole pewnego koła
  *
  * Kod zadania: ETI06F1
  * Poziom:      łatwy
