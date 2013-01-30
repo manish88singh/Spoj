@@ -13,7 +13,7 @@ import java.io.InputStreamReader;
  * Czas:        0.29
  *
  * @see <a href="http://pl.spoj.pl/problems/PA05_POT/">http://pl.spoj.pl/problems/PA05_POT/</a>
- * @author Jakub Chrzanowski
+ * @author Jakub Chrzanowski <jakub@chrzanowski.info>
  */
 public class PA05_POT {
 

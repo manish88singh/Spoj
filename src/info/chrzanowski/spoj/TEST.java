@@ -13,7 +13,7 @@ import java.io.InputStreamReader;
  * Czas:        0.28
  *
  * @see <a href="http://www.spoj.pl/problems/TEST/">http://www.spoj.pl/problems/TEST/</a>
- * @author Jakub Chrzanowski
+ * @author Jakub Chrzanowski <jakub@chrzanowski.info>
  */
 public class TEST {
 

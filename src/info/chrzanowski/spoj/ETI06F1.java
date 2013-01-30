@@ -13,7 +13,7 @@ import java.io.InputStreamReader;
  * Czas:        6.29
  *
  * @see <a href="http://pl.spoj.pl/problems/ETI06F1/">http://pl.spoj.pl/problems/ETI06F1/</a>
- * @author Jakub Chrzanowski
+ * @author Jakub Chrzanowski <jakub@chrzanowski.info>
  */
 public class ETI06F1 {
 

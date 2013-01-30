@@ -13,7 +13,7 @@ import java.io.InputStreamReader;
  * Czas:        0.28
  *
  * @see <a href="http://pl.spoj.pl/problems/FCTRL3/">http://pl.spoj.pl/problems/FCTRL3/</a>
- * @author Jakub Chrzanowski
+ * @author Jakub Chrzanowski <jakub@chrzanowski.info>
  */
 public class FCTRL3 {
 

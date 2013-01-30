@@ -13,7 +13,7 @@ import java.io.InputStreamReader;
  * Czas:        0.31
  *
  * @see <a href="http://pl.spoj.pl/problems/RNO_DOD/">http://pl.spoj.pl/problems/RNO_DOD/</a>
- * @author Jakub Chrzanowski
+ * @author Jakub Chrzanowski <jakub@chrzanowski.info>
  */
 public class RNO_DOD {
 

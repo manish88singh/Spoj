@@ -14,7 +14,7 @@ import java.util.Random;
  * Czas:        0.31
  *
  * @see <a href="http://pl.spoj.pl/problems/PRIME_T/">http://pl.spoj.pl/problems/PRIME_T/</a>
- * @author Jakub Chrzanowski
+ * @author Jakub Chrzanowski <jakub@chrzanowski.info>
  */
 public class PRIME_T {
 

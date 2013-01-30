@@ -13,7 +13,7 @@ import java.io.InputStreamReader;
  * Czas:        0.31
  *
  * @see <a href="http://pl.spoj.pl/problems/PRZEDSZK/">http://pl.spoj.pl/problems/PRZEDSZK/</a>
- * @author Jakub Chrzanowski
+ * @author Jakub Chrzanowski <jakub@chrzanowski.info>
  */
 public class PRZEDSZK {
 
