@@ -10,7 +10,7 @@ import java.io.InputStreamReader;
  * Kod zadania: PTROL
  * Poziom:      łatwy
  * Status:      zaakceptowano
- * Czas:        0.
+ * Czas:        0.62
  *
  * @see <a href="http://pl.spoj.pl/problems/PTROL/">http://pl.spoj.pl/problems/PTROL/</a>
  * @author Jakub Chrzanowski <jakub@chrzanowski.info>
