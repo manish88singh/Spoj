@@ -5,24 +5,27 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 /**
- * 769. Zadanie próbne
+ * 1011. Połowa
  *
- * Kod zadania: PTEST
+ * Kod zadania: POL
  * Poziom:      łatwy
  * Status:      zaakceptowano
- * Czas:        0.86
+ * Czas:        0.96
  *
- * @see <a href="http://pl.spoj.pl/problems/PTEST/">http://pl.spoj.pl/problems/PTEST/</a>
+ * @see <a href="http://pl.spoj.pl/problems/POL/">http://pl.spoj.pl/problems/POL/</a>
  * @author Jakub Chrzanowski <jakub@chrzanowski.info>
  */
-public class PTEST {
+public class POL {
 
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        int a = Integer.parseInt(reader.readLine()),
-            b = Integer.parseInt(reader.readLine());
+        int counter = Integer.parseInt(reader.readLine());
+        String input;
 
-        System.out.println(String.valueOf(a + b));
+        while (counter-->0) {
+            input = reader.readLine();
+            System.out.println(input.substring(0, input.length()/2));
+        }
     }
 
 }
