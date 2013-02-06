@@ -10,8 +10,8 @@ import java.util.Random;
  *
  * Kod zadania: PRIME_T
  * Poziom:      łatwy
- * Status:      błędna odpowiedź
- * Czas:        0.31
+ * Status:      zaakceptowano
+ * Czas:        4.48
  *
  * @see <a href="http://pl.spoj.pl/problems/PRIME_T/">http://pl.spoj.pl/problems/PRIME_T/</a>
  * @author Jakub Chrzanowski <jakub@chrzanowski.info>
@@ -22,23 +22,22 @@ public class PRIME_T {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         long counter = Long.parseLong(reader.readLine());
         Random random = new Random();
-        int a, i, value;
+        int value, p, s;
         boolean result;
 
         while (counter-->0) {
-            value = Integer.parseInt(reader.readLine());
-            result = true;
+            value  = Integer.parseInt(reader.readLine());
+            result = value > 1;
+            s      = (int) Math.sqrt(value);
+            p      = 2;
 
-            if (value > 3) {
-                for (i = 0; i < 3; ++i) {
-                    a = 2 + random.nextInt(value - 2);
-                    if (Math.pow(a, value - 1) % value != 1) {
-                        result = false;
-                        break;
-                    }
+
+
+            while (value != p && p <= s) {
+                if (value % p++ == 0) {
+                    result = false;
+                    break;
                 }
-            } else if (value < 2) {
-                result = false;
             }
 
             System.out.println(result ? "TAK" : "NIE");
